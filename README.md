@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Savvy Assessment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+search fields , pagination, Sorting ,test cases added
 
 ## Available Scripts
 
