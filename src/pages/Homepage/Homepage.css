@@ -1,0 +1,134 @@
+.home-bodyDiv{
+    padding: 4vh 10vw;
+}
+
+.searchinput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchinput input{
+    margin-left: 14px;
+    width: 260px;
+    height: 34px;
+    padding: 0px 5px;
+}
+
+
+.posts-Div {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    margin-top: 30px;
+}   
+
+.posters{
+    background-color: rgb(210, 210, 210);
+    width: 240px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+.posters b{
+   font-size: 18px;
+   text-align: center;
+}
+
+.paginationDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.loaderDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+.pagesDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    overflow-x: auto;
+    padding-inline-start:0px
+}
+
+.pagesbtn{
+    width: 26px;
+    height: 26px;
+    background-color: rgb(55, 55, 55);
+    margin: 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Activepagesbtn{
+    width: 26px;
+    height: 26px;
+    background-color: rgb(4, 52, 173);
+    margin: 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+.Arrowbtn{
+    width: 55px;
+    height: 28px;
+    background-color: rgb(55, 55, 55);
+    margin: 0px 0px 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.disablebtn {
+    width: 55px;
+    height: 28px;
+    background-color: rgba(199, 199, 199, 0.833);
+    margin: 0px 0px 0px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+@media screen and (max-width:680px) {
+    .home-bodyDiv{
+        padding: 4vh 6vw;
+    }
+    .posts-Div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pagesDiv{
+        width: 360px;
+        overflow-x: auto;
+    }
+}

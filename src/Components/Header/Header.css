@@ -1,0 +1,36 @@
+.headerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#0065d0 ;
+    padding: 20px 10vw;
+}
+
+.headerLogo{
+    font-size: 32px;
+    line-height: 38px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-option{
+    display: flex;
+    align-items: center;
+}
+
+.header-btn{
+    background-color: rgb(66, 66, 66);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:680px) {
+    .header-option{
+        display: none;
+    }
+}

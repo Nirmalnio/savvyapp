@@ -1,0 +1,17 @@
+.CardDiv{
+    width: 250px;
+    min-height: 320px;
+    background-color: rgba(131, 131, 131, 0.748);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CardDiv img{
+    width: 250px;
+    height: auto;
+}
+.CardDiv span{
+    font-size: 18px;
+    text-align: center;
+}
